@@ -1,0 +1,13 @@
+{
+  "name": "pnrc-prototipo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Prototipo navegable de la Plataforma Nacional de Robótica Creativa (FVRC): portada pública y módulo de registro.",
+  "scripts": {
+    "servidor": "node _tools/servidor.mjs 8321 .",
+    "verificar": "node _tools/verificar.mjs",
+    "probar:asistente": "node _tools/probar-asistente.mjs",
+    "probar": "node _tools/verificar.mjs && node _tools/probar-asistente.mjs"
+  }
+}

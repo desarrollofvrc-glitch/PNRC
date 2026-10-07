@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es-VE" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- ===================== SEO ===================== -->
+<title>FVRC · Cursos, talleres y competencias de robótica en Venezuela</title>
+<meta name="description" content="Plataforma oficial de la Federación Venezolana de Robótica Creativa. Inscríbete en cursos, talleres, ferias y olimpiadas de robótica en todo el país y recibe tu certificado digital avalado.">
+<meta name="keywords" content="robótica creativa, Venezuela, cursos de robótica, olimpiada de robótica, FVRC, talleres, federación, STEM, programación">
+<meta name="author" content="Federación Venezolana de Robótica Creativa">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0A2463">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://pnrc.fvrc.org.ve/">
+
+<!-- ===================== Open Graph / redes ===================== -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FVRC · Plataforma Nacional de Robótica Creativa">
+<meta property="og:locale" content="es_VE">
+<meta property="og:title" content="FVRC · Formamos a la generación que construye, programa y compite">
+<meta property="og:description" content="Cursos, talleres, ferias y olimpiadas de robótica creativa en toda Venezuela. Registro en línea y certificados digitales avalados por la federación.">
+<meta property="og:url" content="https://pnrc.fvrc.org.ve/">
+<meta property="og:image" content="https://pnrc.fvrc.org.ve/assets/img/fvrc-logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FVRC · Cursos y competencias de robótica en Venezuela">
+<meta name="twitter:description" content="Inscripciones abiertas: cursos, talleres y olimpiadas de robótica creativa en toda Venezuela.">
+<meta name="twitter:image" content="https://pnrc.fvrc.org.ve/assets/img/fvrc-logo.png">
+
+<!-- ===================== Iconos ===================== -->
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/img/fvrc-logo.png">
+
+<!-- ===================== Tipografía ===================== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+<!-- ===================== Estilos ===================== -->
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/landing.css">
+<link rel="stylesheet" href="assets/css/register.css">
+<link rel="stylesheet" href="assets/css/dashboard.css">
+
+<!-- ===================== Datos estructurados ===================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NGO",
+      "@id": "https://pnrc.fvrc.org.ve/#organizacion",
+      "name": "Federación Venezolana de Robótica Creativa",
+      "alternateName": "FVRC",
+      "url": "https://pnrc.fvrc.org.ve/",
+      "logo": "https://pnrc.fvrc.org.ve/assets/img/fvrc-logo.png",
+      "areaServed": { "@type": "Country", "name": "Venezuela" },
+      "description": "Núcleo digital oficial para el registro, la formación y la competencia de robótica creativa en Venezuela."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://pnrc.fvrc.org.ve/#sitio",
+      "url": "https://pnrc.fvrc.org.ve/",
+      "name": "Plataforma Nacional de Robótica Creativa",
+      "inLanguage": "es-VE",
+      "publisher": { "@id": "https://pnrc.fvrc.org.ve/#organizacion" }
+    },
+    {
+      "@type": "Course",
+      "name": "Programación en Python aplicada a IoT",
+      "description": "8 semanas para dominar Python, sensores y microcontroladores con proyectos evaluados y certificado avalado por la FVRC.",
+      "provider": { "@id": "https://pnrc.fvrc.org.ve/#organizacion" },
+      "inLanguage": "es-VE",
+      "offers": { "@type": "Offer", "price": "4500.00", "priceCurrency": "VES", "availability": "https://schema.org/LimitedAvailability" }
+    },
+    {
+      "@type": "Event",
+      "name": "Olimpiada Nacional de Robótica Creativa 2026",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-16",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Polideportivo José María Vargas",
+        "address": { "@type": "PostalAddress", "addressLocality": "Caracas", "addressRegion": "Distrito Capital", "addressCountry": "VE" }
+      },
+      "organizer": { "@id": "https://pnrc.fvrc.org.ve/#organizacion" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "VES", "availability": "https://schema.org/InStock" }
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+  <!-- Sin role="application": anularía los atajos de navegación de los lectores de pantalla -->
+  <div id="app" aria-label="Plataforma Nacional de Robótica Creativa"></div>
+
+  <!-- Estado inicial accesible mientras carga el prototipo -->
+  <noscript>
+    <div class="container section">
+      <div class="alert alert--warning">
+        <strong>Este prototipo necesita JavaScript activado.</strong>
+        Actívalo en tu navegador para explorar la portada y el flujo de registro.
+      </div>
+    </div>
+  </noscript>
+
+  <div id="estado-inicial" class="container section">
+    <div class="grid grid--3">
+      <div class="card card--pad"><div class="skeleton" style="height:18px;width:60%"></div>
+        <div class="skeleton" style="height:12px;margin-top:12px"></div>
+        <div class="skeleton" style="height:12px;margin-top:8px;width:80%"></div></div>
+      <div class="card card--pad"><div class="skeleton" style="height:18px;width:60%"></div>
+        <div class="skeleton" style="height:12px;margin-top:12px"></div>
+        <div class="skeleton" style="height:12px;margin-top:8px;width:80%"></div></div>
+      <div class="card card--pad"><div class="skeleton" style="height:18px;width:60%"></div>
+        <div class="skeleton" style="height:12px;margin-top:12px"></div>
+        <div class="skeleton" style="height:12px;margin-top:8px;width:80%"></div></div>
+    </div>
+  </div>
+
+  <script type="module" src="assets/js/main.js"></script>
+  <script>
+    /* Retira el esqueleto de carga en cuanto el router pinta la primera vista */
+    window.addEventListener("load", () => {
+      const esqueleto = document.getElementById("estado-inicial");
+      const app = document.getElementById("app");
+      if (esqueleto && app && app.children.length) esqueleto.remove();
+    });
+  </script>
+</body>
+</html>
